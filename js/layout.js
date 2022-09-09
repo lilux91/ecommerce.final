@@ -35,7 +35,16 @@ function printFoodInCart(elementHTML) {
     //precioTotal.innerText = carrito.reduce((acc, prod) => acc + prod.cantidad * prod.precio, 0)
     //Por cada producto q recorro en mi carrito, al acumulador le suma la propiedad precio, con el acumulador
     //empezando en 0.
-    
+    const carttotal = document.querySelector(".content_cart-total")
+    let totaltext = "";
+    let totalnumber = 0;
+     arrayCart.forEach(({ price, amount}) => {
+     let subtotalnumber = price*amount;
+    totalnumber += subtotalnumber;
+    })
+  totaltext += `<h2>Total: $<span id="total">${totalnumber}</span></h2>`;
+   carttotal.innerHTML= totaltext;
+
 }
 
 function printFood(elementHTML, data) {

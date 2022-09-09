@@ -20,52 +20,7 @@ img {
     display: block;
 }
 
-
-
-/* NAVBAR */
-
-.contenedor-header {
-    background: rgba(0, 0, 0, 0.8);
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 99;
-    height: 100px;
-}
-  .contenedor-header header {
-    max-width: 1100px;
-    margin: auto;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px 20px;
-    height: 100px;
-}
-.contenedor-header header .logo a {
-    font-family: "Righteous";
-    font-size: 30px;
-    text-decoration: none;
-}
-.contenedor-header header ul {
-    display: flex;
-    list-style: none;
-}
-.contenedor-header header nav ul li a {
-    text-align: none;
-    color: #fff;
-    margin: 0 15px;
-    padding: 3px;
-    transition: 0.5s;
-    text-decoration: none;
-}
-  .contenedor-header header nav ul li a:hover {
-    color: #ff5080;
-}
   
-
-
-
-
 .container-img img {
     width: 200px;
     height: 200px;
